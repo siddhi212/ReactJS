@@ -13,12 +13,12 @@ const ExpenseForm = () => {
     //console.log("Date Change Handler")
   }
   const amountChangeHandler = (event) =>{
-    SetamountHandler(event.tager.value)
+    SetamountHandler(event.target.value)
     //console.log("Amount Change Handler")
   }
 
   const titleChangeHandler = (event) =>{
-    SetDateHandler(event.tager.value)
+    SetDateHandler(event.target.value)
     //console.log("Title Change Handler")
   }
 
